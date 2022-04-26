@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: 	#202020;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 40vh;
+    height: 43vh;
+    margin: 120px auto;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+@media only screen and (max-height: 718px){
+    #submit-btn{
+        position: absolute;
+        top: 56%;
+        left: 40%;
+        width: 20%;
+    }
+}
+
+@media only screen and (max-height: 702px){
+    #submit-btn{
+        position: absolute;
+        top: 56%;
+        left: 40%;
+        width: 20%;
+    }
+
+    #rating-el{
+        position: absolute;
+        top: 39%;
+        left: 47%;
+        width: 5%;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-height: 656px){
+    #submit-btn{
+        position: absolute;
+        top: 59%;
+        left: 40%;
+        width: 20%;
+    }
+
+    #rating-el{
+        position: absolute;
+        top: 42%;
+        left: 47%;
+        width: 5%;
+        gap: 15px;
+    }
+    p{
+        font-size: 16px;
+    }
+
+    #popUpWindow{
+        position: absolute;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-height: 620px){
+    #popUpBtn{
+        position: absolute;
+        top: 46%;
+        left: 34%;
+    }
+
+    h1{
+        font-size: 23px;
+
+    }
+}
+
+@media only screen and (max-height: 580px){
+    #submit-btn{
+        position: absolute;
+        top: 60%;
+        left: 42%;
+        width: 17%;
+    }
+
+    #rating-el{
+        position: absolute;
+        top: 42%;
+        left: 48%;
+        width: 5%;
+        gap: 15px;
+    }
+    p{
+        font-size: 12px;
+    }
+
+    h1{
+        font-size: 21px;
+
+    }
+
+    #popUpBtn{
+        position: absolute;
+        top: 42%;
+        left: 36%;
+    }
+}
+
+@media only screen and (max-height: 525px){
+    #submit-btn{
+        position: absolute;
+        top: 62%;
+        left: 42.5%;
+        width: 15%;
+    }
+
+    #rating-el{
+        position: absolute;
+        top: 42%;
+        left: 47.5%;
+        width: 5%;
+        gap: 12px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 19px;
+
+    }
+
+    #popUpBtn{
+        position: absolute;
+        top: 42%;
+        left: 38%;
+    }
+}
+
+@media only screen and (max-height: 469px ){
+    #submit-btn{
+        position: absolute;
+        top: 67%;
+        left: 42.5%;
+        width: 15%;
+    }
+
+    #rating-el{
+        position: absolute;
+        top: 46%;
+        left: 47.5%;
+        width: 5%;
+        gap: 12px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+
+    h1{
+        font-size: 16px;
+
+    }
+
+    #popUpBtn{
+        position: absolute;
+        top: 38%;
+        left: 39%;
+    }
+}
+
+
+
+
+#ratingContainer{
+    background-image: linear-gradient(to right, #09203f , #537895);
+    color: white;
+}
+
+p{
+    margin: 0 0 20px 0;
+    opacity: .5;
+}
+
+#rating-el{
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 0;
+    opacity: .7;
+}
+
+.ratingCircle{
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+#submit-btn{
+    opacity: .7;
+    color: white;
+    background-color: #808080;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.ratingCircle:hover{
+    color: white;
+    opacity: 1;
+    padding: 12px;
+}
+
+#submit-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#popUpWindow{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 30vh;
+    left: 21%;
+    width: 60%;
+    height: 22vh;
+    text-align: center;
+    margin: 0;
+    border: none;
+    border-radius: 35px;
+    display: none;
+}
+
+#popUpBtn{
+    opacity: .5;
+    color: black;
+    background-color: #808080;
+    border: none;
+    border-radius: 5px;
+    width: 25vh;
+    font-weight: bold;
+    padding: 15px 0;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#popUpBtn:hover{
+    color: white;
+    padding: 17px 1px;
+    opacity: 1;
+}
