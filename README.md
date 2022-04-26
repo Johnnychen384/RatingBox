@@ -14,4 +14,9 @@ Users should be able to:
 
 - See hover states for all interactive elements on the page
 
+
+
+New Coding challenges: 
+
  - Added Media Queries for more web responsiveness.
+ - Using Arrow functions
